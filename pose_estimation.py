@@ -32,9 +32,9 @@ cap = cv2.VideoCapture(0)
 last_screenshot_time = 0
 cooldown_seconds = 10
 
-SENDER_EMAIL = '' #add your email
-SENDER_PASSWORD = '' #add your app password
-RECEIVER_EMAIL = '' #add receivers email
+SENDER_EMAIL = '' # add your email
+SENDER_PASSWORD = '' # add your app password
+RECEIVER_EMAIL = '' # add receivers email
 
 while cap.isOpened():
     ret, frame = cap.read()
